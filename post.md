@@ -1,6 +1,6 @@
 ![nodejs](http://roshiro.github.io/cdn/images/nodejs.jpg)
 
-I started the habit of looking for trending projects on GitHub every morning before starting work and it has been benifitial. I can see what people are using and interested in out there. I usually tweet the projects that seem interesting and worth following. If you want to know what I have found so far, particularly projects related to Front-End development, [find me](http://twitter.com/roshiro) on twitter.
+I have started the habit of looking for trending projects on GitHub every morning before starting work and it has been beneficial. I can see what other people are using and interested in. I usually tweet the projects that seem interesting and worth following. If you want to know what I have found so far, particularly projects related to Front-End development, [find me](http://twitter.com/roshiro) on twitter.
 
 __One project that caught my eyes__ recently is [RethinkDB](http://www.rethinkdb.com/), a NoSQL database that stores JSON documents and as they say on their website it has an _"intuitive query language, automatically parallelized queries and simple administration"_. I really like how easy it is to query data and how it handles JSON docs.
 
