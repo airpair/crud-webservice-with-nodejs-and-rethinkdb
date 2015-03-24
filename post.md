@@ -1,10 +1,10 @@
 ![nodejs](http://roshiro.github.io/cdn/images/nodejs.jpg)
 
-I started the habit of looking up what's trending on GitHub every morning before start to work and it's shown me very good benefits. I can see what people are using and interested in out there. I usually tweet the projects that really seems interesting and worth following, so if you want to know what I have found so far, particularly the ones related to Front-End development, [find me](http://twitter.com/roshiro) on twitter.
+I have started the habit of looking for trending projects on GitHub every morning before starting work and it has been beneficial. I can see what other people are using and interested in. I usually tweet the projects that seem interesting and worth following. If you want to know what I have found so far, particularly projects related to Front-End development, [find me](http://twitter.com/roshiro) on twitter.
 
 __One project that caught my eyes__ recently is [RethinkDB](http://www.rethinkdb.com/), a NoSQL database that stores JSON documents and as they say on their website it has an _"intuitive query language, automatically parallelized queries and simple administration"_. I really like how easy it is to query data and how it handles JSON docs.
 
-I created a simple REST web service using Node.JS and Express to persist schema-free JSON data in RethinkDB so that I can have a taste of how easily I can integrate this database with javascript. I put [this web service up in GitHub](https://github.com/roshiro/crud_ws), so feel free to clone and play around with it. Below I explain a how this web service (crud_ws) was built.
+I created a simple REST web service using Node.JS and Express to persist schema-free JSON data in RethinkDB so that I can have a taste of how easily I can integrate RethinkDB with javascript. I put [this web service up in GitHub](https://github.com/roshiro/crud_ws), so feel free to clone and play around with it. Below I explain how crud_ws web service was built.
 
 __The crud_ws consists of basically 3 main files__
 
@@ -28,7 +28,7 @@ Here we are defining our dependency on express framework.
 
 ####server.js
 
-Notice here we define the routes and the respective http methods. For each route we say what method to execute.
+Here we define the routes and the respective http methods. For each route we say what method to execute.
 
 ```javascript
 var express = require('express'),
